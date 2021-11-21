@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoViagem</string>
+    <string name="bemvindo"><strong>Seja Bem Vindo!</strong></string>
+    <string name="digiteNome">Para começar digite o seu nome:</string>
+    <string name="botaoEntrar">Entrar</string>
+    <string name="botaoNovaViagem">Adicionar Nova Viagem</string>
+    <string name="botaoMinhasViagens">Minhas Viagens</string>
+    <string name="txtViagem">Escolha uma das opções:</string>
+</resources>
