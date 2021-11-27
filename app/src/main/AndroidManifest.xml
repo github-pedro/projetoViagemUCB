@@ -13,6 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoViagem">
         <activity
+            android:name=".list.ListTrabalho"
+            android:exported="true" />
+        <activity
+            android:name=".list.ListAmigos"
+            android:exported="true" />
+        <activity
+            android:name=".list.ListFamilia"
+            android:exported="true" />
+        <activity
+            android:name=".TiposViagens"
+            android:exported="true" />
+        <activity
+            android:name=".MinhasViagens"
+            android:exported="true" />
+        <activity
             android:name=".NovaViagem"
             android:exported="true" />
         <activity

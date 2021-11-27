@@ -1,5 +1,6 @@
 package br.com.projetoviagem.roomdata
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
@@ -17,5 +18,5 @@ interface ViagemDAO {
     suspend fun update(viagem: Viagem)
 
     @Query("select * from Viagem")
-    suspend fun getAll():List<Viagem>
+    fun getAll(): List<Viagem>
 }

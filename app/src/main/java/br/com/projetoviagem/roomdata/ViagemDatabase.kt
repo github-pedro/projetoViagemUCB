@@ -18,5 +18,20 @@ abstract class ViagemDatabase:RoomDatabase() {
             }
             return INSTANCE!!
         }
+        fun getDatabase(context: Context): ViagemDatabase{
+            val tempInstance = INSTANCE
+            if(tempInstance != null){
+                return tempInstance
+            }
+            synchronized(this){
+                val instance = Room.databaseBuilder(
+                    context.applicationContext,
+                    ViagemDatabase::class.java,
+                    "user_database"
+                ).build()
+                INSTANCE = instance
+                return instance
+            }
+        }
     }
 }

@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="creamy">#FFFAFA</color>
     <color name="Black">#1e272e</color>
+    <color name="branco">#f5f6fa</color>
+    <color name="cinza">#dcdde1</color>
+    <color name="cinzaText">#95a5a6</color>
+    <color name="roxo">#9b59b6</color>
 </resources>

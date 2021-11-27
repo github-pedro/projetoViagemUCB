@@ -5,5 +5,6 @@
     <string name="botaoEntrar">Entrar</string>
     <string name="botaoNovaViagem">Adicionar Nova Viagem</string>
     <string name="botaoMinhasViagens">Minhas Viagens</string>
+    <string name="botaoOpcaoViagem">Opções de Viagens</string>
     <string name="txtViagem">Escolha uma das opções:</string>
 </resources>
