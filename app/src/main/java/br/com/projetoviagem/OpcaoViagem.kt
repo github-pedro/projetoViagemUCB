@@ -14,6 +14,7 @@ class OpcaoViagem : AppCompatActivity() {
         val buttonNovaViagem:Button = findViewById(R.id.botaoNovaViagem)
         val buttonMinhasViagens:Button = findViewById(R.id.botaoMinhasViagens)
         val buttonOpcaoViagem:Button = findViewById(R.id.botaoOpcoesViagens)
+        val buttonDicasViagem:Button = findViewById(R.id.botaoDicasViagem)
         var nome = intent.getStringExtra("nome")
         txtViewNome.text = nome
 
@@ -30,6 +31,11 @@ class OpcaoViagem : AppCompatActivity() {
         // Metodo de click no botão Opções de Viagens
         buttonOpcaoViagem.setOnClickListener {
             val intent = Intent(this, TiposViagens::class.java)
+            startActivity(intent)
+        }
+        // Metodo de click no botão Dicas de Viagem Segura
+        buttonDicasViagem.setOnClickListener {
+            val intent = Intent(this, videoView::class.java)
             startActivity(intent)
         }
     }

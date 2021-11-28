@@ -79,4 +79,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoMinhasViagens" />
 
+    <Button
+        android:id="@+id/botaoDicasViagem"
+        android:layout_width="229dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#EBE36B6B"
+        android:text="@string/botaoDicasViagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoOpcoesViagens" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

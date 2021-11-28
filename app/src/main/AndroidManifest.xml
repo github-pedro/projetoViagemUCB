@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoViagem">
         <activity
+            android:name=".videoView"
+            android:exported="true" />
+        <activity
             android:name=".list.ListTrabalho"
             android:exported="true" />
         <activity
