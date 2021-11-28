@@ -7,8 +7,6 @@ import android.text.Editable
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.navigation.findNavController
-import androidx.navigation.ui.setupActionBarWithNavController
 
 class MainActivity : AppCompatActivity() {
     lateinit var getNome:String
