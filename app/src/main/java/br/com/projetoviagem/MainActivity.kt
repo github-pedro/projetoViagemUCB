@@ -19,12 +19,19 @@ class MainActivity : AppCompatActivity() {
         getNome = sharedPreference.getValue("NOME").toString()
         nome.setText(getNome)
 
+        // Aciona o botão de entrar no menu de opções
         button.setOnClickListener {
+
+            // Verifica se o nome é diferente de vazio para prosseguir
             if(!nome.text.isEmpty()) {
+
+                // Salva e Retorna o nome digitado no SharedPreferences
                 sharedPreference.save("NOME", nome.text.toString())
                 getNome = sharedPreference.getValue("NOME").toString()
                 val intent = Intent(this, OpcaoViagem::class.java)
                 intent.putExtra("nome", getNome)
+
+                //Chama a activity OpcaoViagem
                 startActivity(intent)
             } else {
                 Toast.makeText(applicationContext,"Preencha o campo com seu nome!",Toast.LENGTH_LONG).show()

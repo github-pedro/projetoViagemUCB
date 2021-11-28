@@ -16,14 +16,17 @@ class TiposViagens : AppCompatActivity() {
         val imageButtonAmigos:ImageButton = findViewById(R.id.imageButtonAmigos)
         val imageButtonTrabalho:ImageButton = findViewById(R.id.imageButtonTrabalho)
 
+        // Metodo de click na opção Familia
         imageButtonFamilia.setOnClickListener{
             val intent = Intent(this, ListFamilia::class.java)
             startActivity(intent)
         }
+        // Metodo de click na opção Amigos
         imageButtonAmigos.setOnClickListener{
             val intent = Intent(this, ListAmigos::class.java)
             startActivity(intent)
         }
+        // Metodo de click na opção Trabalho
         imageButtonTrabalho.setOnClickListener{
             val intent = Intent(this, ListTrabalho::class.java)
             startActivity(intent)

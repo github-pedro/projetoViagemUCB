@@ -19,10 +19,10 @@ class CustomAdapter(val context:Activity, private val localDestino:Array<String>
         val tipoViagemView = view.findViewById<TextView>(R.id.txtTipo)
         val bagagemView = view.findViewById<TextView>(R.id.txtBagagem)
 
-        localDestinoView.text = localDestino[position]
-        dataIdaView.text = dataIda[position]
-        tipoViagemView.text = tipoViagem[position]
-        bagagemView.text = bagagem[position]
+        localDestinoView.text = "Local de Destino: " + localDestino[position]
+        dataIdaView.text = "Data de Ida: " + dataIda[position]
+        tipoViagemView.text = "Proposito: " + tipoViagem[position]
+        bagagemView.text = "O que levar: " + bagagem[position]
 
         return view
     }

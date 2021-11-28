@@ -26,13 +26,13 @@
 
             <TextView
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:id="@+id/txtLocal"
                 android:layout_marginLeft="20px"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
             <TextView
                 android:id="@+id/txtTipo"
-                android:textStyle="bold"
                 android:textColor="@color/black"
                 android:layout_marginLeft="20px"
                 android:layout_width="match_parent"
